@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis}
 layers:
   BASE:
-  - DEV TOOLS
+  - TAB
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - L_BASE L_PHOTO L_GAME
-  - {t: TAB, h: LCMD}
+  - {t: ESCAPE, h: LEFT SHIFT}
   - {t: A, h: SYM}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LCTRL}
@@ -25,7 +25,7 @@ layers:
   - {t: L, h: RIGHT ALT}
   - {t: ;, h: RCMD}
   - DEL
-  - SEARCH
+  - LCTRL
   - Z
   - {t: X, h: MEH}
   - {t: C, h: HYPER}
@@ -39,21 +39,21 @@ layers:
   - CLIP HIST
   - SCRL SLOW
   - L CLK
-  - '&td_bs'
+  - SPACE
   - {t: RETURN, h: MOUSE}
-  - '&td_space'
+  - {t: BACK SPACE, h: NUM}
   NUM:
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '*'
-  - {t: '7', h: F7}
-  - {t: '8', h: F8}
-  - {t: '9', h: F9}
-  - F10
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - ''
   - {t: ▽, type: trans}
   - ''
@@ -62,10 +62,10 @@ layers:
   - ''
   - ''
   - '-'
-  - {t: '4', h: F4}
-  - {t: '5', h: F5}
-  - {t: '6', h: F6}
-  - {t: +, h: F11}
+  - '-'
+  - '='
+  - '['
+  - ']'
   - {t: ▽, type: trans}
   - ''
   - ''
@@ -83,7 +83,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - .
-  - '0'
+  - {t: '0', type: held}
   NAV:
   - ''
   - ''
