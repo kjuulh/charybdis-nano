@@ -39,7 +39,7 @@ layers:
   - CLIP HIST
   - SCRL SLOW
   - L CLK
-  - SPACE
+  - {t: SPACE, h: SYM}
   - {t: RETURN, h: MOUSE}
   - {t: BACK SPACE, h: NUM}
   NUM:
@@ -86,11 +86,11 @@ layers:
   - {t: '0', type: held}
   NAV:
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Alt+ Q
+  - Alt+ W
+  - Alt+ E
+  - Alt+ R
+  - Alt+ T
   - '&detach_session'
   - '&create_or_attach'
   - '&next_pane'
@@ -98,11 +98,11 @@ layers:
   - '&sync_panes'
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
+  - Alt+ A
+  - Alt+ S
+  - Alt+ D
+  - Alt+ F
+  - Alt+ G
   - HSPLIT
   - LEFT
   - DOWN
@@ -128,18 +128,18 @@ layers:
   - {t: ▽, type: trans}
   SYM:
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '*'
-  - '&'
-  - '{'
-  - $
-  - '&td_grave'
   - '!'
-  - ''
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - '!'
+  - {t: ▽, type: trans}
   - {type: held}
   - ''
   - ''
@@ -149,7 +149,7 @@ layers:
   - ;
   - (
   - '['
-  - +
+  - ']'
   - '|'
   - ''
   - ''
@@ -160,8 +160,8 @@ layers:
   - '@'
   - _
   - <
-  - '#'
-  - '%'
+  - '{'
+  - '}'
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
