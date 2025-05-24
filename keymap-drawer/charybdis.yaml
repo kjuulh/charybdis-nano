@@ -12,33 +12,33 @@ layers:
   - I
   - O
   - P
-  - L_BASE L_PHOTO L_GAME
-  - {t: ESCAPE, h: LEFT SHIFT}
-  - {t: A, h: SYM}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LCTRL}
-  - {t: F, h: LEFT SHIFT}
+  - NAV
+  - LEFT SHIFT
+  - A
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: RCTRL}
-  - {t: L, h: RIGHT ALT}
-  - {t: ;, h: RCMD}
-  - DEL
+  - J
+  - K
+  - L
+  - ;
+  - \
   - LCTRL
   - Z
-  - {t: X, h: MEH}
-  - {t: C, h: HYPER}
+  - X
+  - C
   - V
   - B
   - N
   - M
-  - {t: ',', h: HYPER}
-  - {t: ., h: MEH}
-  - ~/
-  - CLIP HIST
+  - ','
+  - .
+  - /
+  - {t: '`', h: EXTRAS}
   - SCRL SLOW
-  - L CLK
+  - ESCAPE
   - {t: SPACE, h: SYM}
   - {t: RETURN, h: MOUSE}
   - {t: BACK SPACE, h: NUM}
@@ -96,7 +96,7 @@ layers:
   - '&next_pane'
   - '&show_sessions'
   - '&sync_panes'
-  - ''
+  - {type: held}
   - {t: ▽, type: trans}
   - Alt+ A
   - Alt+ S
@@ -140,7 +140,7 @@ layers:
   - )
   - '!'
   - {t: ▽, type: trans}
-  - {type: held}
+  - ''
   - ''
   - ''
   - {t: ▽, type: trans}
@@ -165,91 +165,7 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  GAME:
-  - '1'
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - '2'
-  - LCTRL
-  - A
-  - S
-  - D
-  - F
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '3'
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - SPACE
-  - LEFT ALT
-  - ''
-  - ''
-  PHOTOS:
-  - {t: ▽, type: trans}
-  - TAG Z
-  - TAG E
-  - TAG A
-  - TAG S
-  - TAG B
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - FIT
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - LCTRL
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - SHRED
-  - SHOW TAGS
-  - REJECT
-  - PENDING
-  - ACCEPT
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   EXTRAS:
@@ -288,7 +204,7 @@ layers:
   - VOLUME DOWN
   - VOLUME UP
   - PRINT SCREEN
-  - ZMK Studio
+  - {t: ZMK Studio, type: held}
   - ''
   - ''
   - ''
@@ -314,10 +230,10 @@ layers:
   - MOVE R
   - FWD
   - ''
-  - RIGHT SHIFT
-  - RCTRL
-  - LEFT ALT
-  - LCMD
+  - {t: LEFT SHIFT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: LEFT ALT, h: sticky}
+  - {t: LCMD, h: sticky}
   - ''
   - ''
   - UNDO
@@ -326,9 +242,9 @@ layers:
   - PASTE
   - Mid CLK
   - ''
-  - ''
-  - ''
-  - ''
+  - L CLK
+  - '&mkp MB3'
+  - R CLK
   - ''
   - ''
   - {t: ▽, type: trans}
