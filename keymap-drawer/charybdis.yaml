@@ -73,7 +73,7 @@ layers:
   - ''
   - BACK SPACE
   - SPACE
-  - '='
+  - BOOT LDR
   - {t: '1', h: F1}
   - {t: '2', h: F2}
   - {t: '3', h: F3}
@@ -156,7 +156,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - BOOT LDR
   - '@'
   - _
   - <
