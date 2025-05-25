@@ -42,11 +42,6 @@
             layers = <3>;
         };
 
-        BASE_or_EXTRAS {
-            bindings = <&td_bore>;
-            key-positions = <38 39>;
-        };
-
         // GameLayer {
         //     bindings = <&tog 4>;
         //     key-positions = <8 9>;
