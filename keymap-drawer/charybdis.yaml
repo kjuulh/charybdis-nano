@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis}
 layers:
   BASE:
-  - TAB
+  - {t: TAB, h: MOUSE}
   - Q
   - W
   - E
@@ -211,7 +211,7 @@ layers:
   - ''
   - ''
   MOUSE:
-  - ''
+  - {type: held}
   - WHEEL L
   - WHEEL D
   - MOVE UP
@@ -236,7 +236,7 @@ layers:
   - {t: LCMD, h: sticky}
   - ''
   - ''
-  - UNDO
+  - {t: ▽, type: trans}
   - CUT
   - COPY
   - PASTE
@@ -250,7 +250,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SLOW:
   - {t: ▽, type: trans}
