@@ -120,7 +120,7 @@ layers:
   - PG DN
   - PG UP
   - END
-  - ''
+  - ZMK Studio
   - ''
   - ''
   - {t: ▽, type: trans}
@@ -222,7 +222,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: ▽, type: trans}
   - TAB
   - BACK
   - MOVE L
@@ -250,7 +250,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: RETURN, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   SLOW:
   - {t: ▽, type: trans}
@@ -358,3 +358,6 @@ combos:
   l: [SYM]
 - p: [38, 39]
   k: L_BASE L_EXTRA
+- p: [13, 14]
+  k: ESCAPE
+  l: [BASE]
