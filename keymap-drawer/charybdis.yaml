@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: '~', h: NAV}
-  - LEFT SHIFT
+  - ESCAPE
   - A
   - S
   - D
@@ -38,7 +38,7 @@ layers:
   - /
   - {t: '`', h: EXTRAS}
   - SCRL SLOW
-  - ESCAPE
+  - LEFT SHIFT
   - {t: SPACE, h: SYM}
   - {t: RETURN, h: MOUSE}
   - {t: BACK SPACE, h: NUM}
@@ -91,11 +91,11 @@ layers:
   - Alt+ E
   - Alt+ R
   - Alt+ T
-  - '&detach_session'
-  - '&create_or_attach'
-  - '&next_pane'
-  - '&show_sessions'
-  - '&sync_panes'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
   - {t: ▽, type: trans}
   - Alt+ A
@@ -103,7 +103,7 @@ layers:
   - Alt+ D
   - Alt+ F
   - Alt+ G
-  - HSPLIT
+  - ''
   - LEFT
   - DOWN
   - UP
@@ -115,7 +115,7 @@ layers:
   - ''
   - ''
   - ''
-  - VSPLIT
+  - ''
   - HOME
   - PG DN
   - PG UP
@@ -145,7 +145,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - ''
-  - '&td_hyphen'
+  - ''
   - ;
   - (
   - '['
@@ -170,9 +170,9 @@ layers:
   - {t: ▽, type: trans}
   EXTRAS:
   - POWER
-  - SHRUG
-  - LGTM
-  - GIT COMMIT
+  - ''
+  - ''
+  - ''
   - ''
   - BRIGHTNESS INC
   - {t: BT, h: '0'}
@@ -182,7 +182,7 @@ layers:
   - OUT TOG
   - BT CLR
   - SLEEP
-  - '&sudo'
+  - ''
   - ''
   - ''
   - ''
@@ -199,7 +199,7 @@ layers:
   - ''
   - ''
   - ''
-  - NEW DIR
+  - ''
   - MUTE
   - VOLUME DOWN
   - VOLUME UP
@@ -356,8 +356,6 @@ combos:
 - p: [32, 33]
   k: '>'
   l: [SYM]
-- p: [38, 39]
-  k: L_BASE L_EXTRA
 - p: [13, 14]
   k: ESCAPE
   l: [BASE]
