@@ -337,25 +337,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [17, 18]
-  k: CAPS WORD
-  l: [BASE]
-- p: [28, 37]
-  k: Mid CLK
-- p: [16, 37]
-  k: R CLK
-- p: [20, 21]
-  k: )
-  l: [SYM]
-- p: [21, 22]
-  k: ']'
-  l: [SYM]
-- p: [8, 9]
-  k: '}'
-  l: [SYM]
-- p: [32, 33]
-  k: '>'
-  l: [SYM]
 - p: [13, 14]
   k: ESCAPE
   l: [BASE]
