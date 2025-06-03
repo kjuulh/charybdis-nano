@@ -17,10 +17,9 @@
             tapping-term-ms = <130>; // triggers the hold behavior when the tapping-term-ms has expired
             quick-tap-ms = <150>; // If you press a tapped hold-tap again within quick-tap-ms milliseconds of the first press, it will always trigger the tap behavior.
             require-prior-idle-ms = <185>; // like quick-tap-ms however it will apply for any non-modifier key pressed before it
-            bindings = <&kp>, <&kp>;  // hold, tap
+            bindings = <&mo>, <&kp>;  // hold, tap
         };
         
-
         hm_right: homerow_mod_right {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;

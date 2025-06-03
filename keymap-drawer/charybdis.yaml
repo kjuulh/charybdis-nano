@@ -39,9 +39,9 @@ layers:
   - {t: '`', h: EXTRAS}
   - NAV
   - LEFT SHIFT
-  - {t: SPACE, h: '3'}
-  - {t: RETURN, h: '5'}
-  - {t: BACK SPACE, h: '1'}
+  - {t: SPACE, h: SYM}
+  - {t: RETURN, h: MOUSE}
+  - {t: BACK SPACE, h: NUM}
   NUM:
   - {t: ▽, type: trans}
   - '1'
@@ -83,7 +83,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - .
-  - '0'
+  - {t: '0', type: held}
   NAV:
   - ''
   - Alt+ Q
@@ -165,7 +165,7 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   EXTRAS:
