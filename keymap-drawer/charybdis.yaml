@@ -37,11 +37,11 @@ layers:
   - .
   - /
   - {t: '`', h: EXTRAS}
-  - SCRL SLOW
+  - NAV
   - LEFT SHIFT
-  - {t: SPACE, h: SYM}
-  - {t: RETURN, h: MOUSE}
-  - {t: BACK SPACE, h: NUM}
+  - {t: SPACE, h: '3'}
+  - {t: RETURN, h: '5'}
+  - {t: BACK SPACE, h: '1'}
   NUM:
   - {t: ▽, type: trans}
   - '1'
@@ -83,7 +83,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - .
-  - {t: '0', type: held}
+  - '0'
   NAV:
   - ''
   - Alt+ Q
@@ -165,7 +165,7 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   EXTRAS:
